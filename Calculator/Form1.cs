@@ -25,52 +25,72 @@ namespace Calculator
 
         private void Zero_Button_Click(object sender, EventArgs e)
         {
+            this.DisplayBox.Text = "";
             input += "0";
+            this.DisplayBox.Text += input;
         }
 
         private void One_Button_Click(object sender, EventArgs e)
         {
+            this.DisplayBox.Text = "";
             input += "1";
+            this.DisplayBox.Text += input;
         }
 
         private void Two_Button_Click(object sender, EventArgs e)
         {
+            this.DisplayBox.Text = "";
             input += "2";
+            this.DisplayBox.Text += input;
         }
 
         private void Three_Button_Click(object sender, EventArgs e)
         {
+            this.DisplayBox.Text = "";
             input += "3";
+            this.DisplayBox.Text += input;
         }
 
         private void Four_Button_Click(object sender, EventArgs e)
         {
+            this.DisplayBox.Text = "";
             input += "4";
+            this.DisplayBox.Text += input;
         }
 
         private void Five_Button_Click(object sender, EventArgs e)
         {
+            this.DisplayBox.Text = "";
             input += "5";
+            this.DisplayBox.Text += input;
         }
 
         private void Six_Button_Click(object sender, EventArgs e)
         {
+            this.DisplayBox.Text = "";
             input += "6";
+            this.DisplayBox.Text += input;
         }
 
         private void Seven_Button_Click(object sender, EventArgs e)
         {
+            this.DisplayBox.Text = "";
             input += "7";
+            this.DisplayBox.Text += input;
         }
 
         private void Eight_Button_Click(object sender, EventArgs e)
         {
+            this.DisplayBox.Text = "";
             input += "8";
+            this.DisplayBox.Text += input;
         }
 
         private void Nine_Button_Click(object sender, EventArgs e)
         {
+            this.DisplayBox.Text = "";
             input += "9";
+            this.DisplayBox.Text += input;
         }
 
         private void Divide_Button_Click(object sender, EventArgs e)
