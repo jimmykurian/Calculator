@@ -136,7 +136,42 @@ namespace Calculator
 
         private void Equals_Button_Click(object sender, EventArgs e)
         {
-          
+            operand2 = input;
+            double num1, num2;
+            double.TryParse(operand1, out num1);
+            double.TryParse(operand2, out num2);
+
+            if (operation == '+')
+            {
+                result = num1 + num2;
+                DisplayBox.Text = result.ToString();
+            }
+
+            else if (operation == '-' )
+            {
+                result = num1 - num2;
+                DisplayBox.Text = result.ToString();
+            }
+
+            else if (operation == '*')
+            {
+                result = num1 * num2;
+                DisplayBox.Text = result.ToString();
+            }
+
+            else if (operation == '/')
+            {
+                if (num2 != 0)
+                {
+                    result = num1 / num2;
+                    DisplayBox.Text = result.ToString();
+                }
+
+                else
+                {
+                    DisplayBox.Text = "DIV/Zero!";
+                }
+            }
         }
 
         private void DisplayBox_TextChanged(object sender, EventArgs e)
