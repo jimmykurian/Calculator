@@ -12,6 +12,12 @@ namespace Calculator
 {
     public partial class Form1 : Form
     {
+        string input = string.Empty;     //String storing user input
+        string operand1 = string.Empty;  //String storing first operand
+        string operand2 = string.Empty;  //String sotring second operand
+        char operation;                  //char for operation
+        double result = 0.0;             //calculated result
+
         public Form1()
         {
             InitializeComponent();
